@@ -111,11 +111,16 @@ body {
                 }
                 &:nth-child(2):before{
                     content: '2';
-                    background: $COLOR-STEPPER-TEXT;
-                    color: $COLOR-STEPPER-TEXT-ACTIVE;
                 }
                 &:nth-child(3):before{
                     content: '3';
+                }
+            }
+
+            #selected {
+                &:before{
+                    background: $COLOR-STEPPER-TEXT;
+                    color: $COLOR-STEPPER-TEXT-ACTIVE;
                 }
             }
         }
