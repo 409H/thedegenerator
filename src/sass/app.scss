@@ -27,6 +27,7 @@ body {
     grid-template-columns: minmax(300px, 25%) 1fr;
     padding: 0;
     margin: 0;
+    box-shadow: 10px 13px 24px -13px rgba(30, 30, 60, 0.68);
 
     @media only screen and (max-width: 900px) {
         grid-template-columns: 1fr;
